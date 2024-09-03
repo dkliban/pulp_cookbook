@@ -311,7 +311,7 @@ jobs:
 
       
       - name: Download Ruby client
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4.1.7
         with:
           name: ruby-client.tar
 
@@ -324,7 +324,7 @@ jobs:
 
       
       - name: Download Python client
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4.1.7
         with:
           name: python-client.tar
 
@@ -337,12 +337,12 @@ jobs:
 
       
       - name: Download built docs
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4.1.7
         with:
           name: docs.tar
 
       - name: Download Python client docs
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4.1.7
         with:
           name: python-client-docs.tar
 
